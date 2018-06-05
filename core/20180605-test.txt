@@ -1,0 +1,62 @@
+Group: core
+  time: 20180605T001643+0000 - 20180605T001713+0000
+  total duration:       30
+  requests:             1293
+  requests per second:  43
+  response duration (ms)
+    min:                6
+    average:            229
+    max:                6655
+    standard deviation: 518
+    quantiles (ms)
+         10%       35
+         20%       47
+         30%       57
+         40%       66
+         50%       77
+         60%       89
+         70%      108
+         80%      144
+         90%      397
+         99%     2084
+       99.9%     4158
+      100.0%     6655 (max. value)
+  response size (bytes)
+    total:              30115686
+    min:                493
+    average:            23291
+    max:                92180
+    standard deviation: 23659
+  response status codes
+    200:                1293 (100%)
+Group: core-getmap
+  time: 20180605T001714+0000 - 20180605T001741+0000
+  total duration:       28
+  requests:             97
+  requests per second:  3
+  response duration (ms)
+    min:                248
+    average:            3252
+    max:                14747
+    standard deviation: 2924
+    quantiles (ms)
+         10%      857
+         20%     1181
+         30%     1709
+         40%     2000
+         50%     2198
+         60%     2814
+         70%     3244
+         80%     4884
+         90%     6430
+         99%    14389
+       99.9%    14389
+      100.0%    14747 (max. value)
+  response size (bytes)
+    total:              42013488
+    min:                2310
+    average:            433128
+    max:                1180973
+    standard deviation: 360155
+  response status codes
+    200:                  97 (100%)
